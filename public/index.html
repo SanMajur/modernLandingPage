@@ -19,16 +19,17 @@
     <header>
       <nav class="container flex items-center py-2 mt-4 sm:mt-12">
         <div class="py-4">
-          <a href="./index.html"
+          <a href="#hero"
             ><img src="./images/logo-bookmark.svg" alt=""
           /></a>
         </div>
         <ul
           class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs"
         >
-          <li class="cursor-pointer">Features</li>
-          <li class="cursor-pointer">Pricing</li>
-          <li class="cursor-pointer">Contact</li>
+          <li class="cursor-pointer"><a href="#features">Features</a></li>
+          <li class="cursor-pointer"><a href="#download">Downloads</a></li>
+          <li class="cursor-pointer"><a href="#faq">FAQ</a></li>
+          <li class="cursor-pointer"><a href="#contact">Contact</a></li>
           <button
             type="button"
             class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-white hover:text-black"
@@ -42,7 +43,7 @@
       </nav>
     </header>
     <!-- Hero Section -->
-    <section class="relative">
+    <section class="relative" id="hero">
         <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
             <!-- Content -->
             <div class="flex flex-1 flex-col items-center lg:items-start">
@@ -71,7 +72,7 @@
         <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"></div>
     </section>
     <!-- Features -->
-    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60" id="features">
         <!-- Heading -->
         <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
             <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
@@ -142,7 +143,7 @@
         </div>
     </section>
     <!-- Download -->
-    <section class="py-20 mt-20">
+    <section class="py-20 mt-20" id="download">
           <!-- Heading -->
           <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
             <h1 class="text-3xl text-center text-bookmark-blue">Download the extension</h1>
@@ -186,7 +187,7 @@
         </div>
     </section>
     <!-- FAQ -->
-    <section class="bgbookmark-white py-20">
+    <section class="bgbookmark-white py-20" id="faq">
       <div class="container">
         <!-- Heading -->
         <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
@@ -218,7 +219,7 @@
       </div>
     </section>
     <!-- Contact Us -->
-    <section class="bg-bookmark-purple text-white py-20">
+    <section class="bg-bookmark-purple text-white py-20" id="contact">
       <div class="container">
         <div class="sm:w-3/4 lg:w-2/4 mx-auto">
           <p class="font-light uppercase text-center mb-8">35,000+ already joined</p>
@@ -236,16 +237,17 @@
     <footer class="bg-bookmark-blue py-8">
       <div class="container flex flex-col md:flex-row items-center">
         <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-          <img src="./images/logo-bookmark-white.png" alt="">
+          <a href="./index.html"><img src="./images/logo-bookmark-white.png" alt=""></a>
           <ul class="flex text-white uppercase gap-12 text-xs">
-            <li class="cursor-pointer">Features</li>
-            <li class="cursor-pointer">Pricing</li>
-            <li class="cursor-pointer">Contact</li>
+            <li class="cursor-pointer"><a href="#features">Features</a></li>
+            <li class="cursor-pointer"><a href="#download">Downloads</a></li>
+            <li class="cursor-pointer"><a href="#faq">FAQ</a></li>
+            <li class="cursor-pointer"><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <ul class="flex gap-10 mt-12 md:mt-0">
-          <li><i class="text-white text-2xl fab fa-twitter"></i></li>
-          <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
+          <li class="cursor-pointer"><a href="#"><i class="text-white text-2xl fab fa-twitter"></i></a></li>
+          <li class="cursor-pointer"><a href="#"><i class="text-white text-2xl fab fa-facebook-square"></i></a></li>
         </ul>
       </div>
     </footer>
