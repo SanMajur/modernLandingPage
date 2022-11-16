@@ -12,3 +12,9 @@
 .btn-white {
     @apply bg-bookmark-white
 }
+.accordion-header.active i{
+    @apply transition ease-in-out duration-300 rotate-180
+}
+.accordion-body {
+    @apply max-h-0 overflow-hidden transition-all duration-200 ease-out
+}
